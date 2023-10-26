@@ -16,15 +16,37 @@ function Home() {
   );
 }
 
-{/* write an <About> component here */}
+function App() {
+  return (
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+    </div>
+  );
+}
+
+
+
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      {}
+      {function App() {
+  return (
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+    </div>
+  );
+}
+
+export default App;
+}
     </div>
   );
 }
